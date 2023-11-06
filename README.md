@@ -156,7 +156,7 @@ Content-Type: application/json
 ```
 
 ### GET /list
-Get a list of all files on the server.
+Get a list of all public files on the server.
 
 #### Request
 
@@ -173,27 +173,6 @@ Content-Type: application/json
 
 [
   "3b1f4b56-4e7d-4e2a-8c3a-8e4a7e2ed3b1_example.jpg",
-  "4d5e6f70-1a2b-3c4d-5e6f-7a1b2c3d4e5f_example2.jpg"
-]
-```
-
-### GET /public
-Get a list of all public files on the server.
-
-#### Request
-
-```
-GET /public HTTP/1.1
-Host: hosting.definescripting.repl.co
-```
-
-#### Response
-
-```
-HTTP/1.1 200 OK
-Content-Type: application/json
-
-[
   "4d5e6f70-1a2b-3c4d-5e6f-7a1b2c3d4e5f_example2.jpg"
 ]
 ```
